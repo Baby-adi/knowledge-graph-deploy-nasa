@@ -1,0 +1,13 @@
+[server]
+# Allow the app to be embedded in iframes
+enableXsrfProtection = false
+enableCORS = false
+
+# Set X-Frame-Options to allow embedding
+headless = true
+
+[browser] # x-frames
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
