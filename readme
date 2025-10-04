@@ -1,0 +1,8 @@
+install requirements onto venv
+    pip install -r requirements.txt
+
+run code
+    streamlit run visualize.py
+
+deployed onto 
+    https://knowledge-graph-deploy-nasa.streamlit.app
