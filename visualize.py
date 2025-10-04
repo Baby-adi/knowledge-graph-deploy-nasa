@@ -14,7 +14,7 @@ st.title("s")
 def load_graph_data():
     """Loads data from JSON and builds the full knowledge graph."""
     try:
-        with open('sb_publication_output.json', 'r', encoding='utf-8') as f:
+        with open('cleaned.json', 'r', encoding='utf-8') as f:
             data = json.load(f)
     except FileNotFoundError:
         st.error("Error: `sb_publication_output.json` not found.")
